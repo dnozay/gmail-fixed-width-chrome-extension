@@ -16,7 +16,8 @@
 .gs .ii,
 textarea.Ak,
 table tbody tbody tr td font,
-div[aria-label="Message Body"] {
+div[aria-label="Message Body"],
+table[aria-role="presentation"] .iA.g6 {
     font-family: 'Consolas', 'Inconsolata', monospace !important;
     font-size: small !important;
 }
