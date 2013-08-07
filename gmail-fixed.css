@@ -5,9 +5,20 @@
   src: local('Inconsolata'), url(http://themes.googleusercontent.com/static/fonts/inconsolata/v6/BjAYBlHtW3CJxDcjzrnZCLrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
 }
 
+@font-face {
+  font-family: 'Consolas';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Consolas')
+}
+
+
 .gs .ii,
 textarea.Ak,
-table tbody tbody tr td font{
-    font-family: 'Inconsolata' monospace !important;
+table tbody tbody tr td font,
+div[aria-label="Message Body"], /* compose area */
+table[aria-role="presentation"] .iA.g6, /* excerpts in conversation view */
+tr.zA.yO span.y2 /* excerpts in inbox view */ {
+    font-family: 'Consolas', 'Inconsolata', monospace !important;
     font-size: small !important;
 }
