@@ -7,7 +7,8 @@
 
 .gs .ii,
 textarea.Ak,
-table tbody tbody tr td font{
+table tbody tbody tr td font,
+div[aria-label="Message Body"] {
     font-family: 'Inconsolata' monospace !important;
     font-size: small !important;
 }
