@@ -4,8 +4,10 @@
   font-weight: 400;
   src: 
     local('Inconsolata'), /* first choice if available */
-    local('Consolas'), /* second choice if available */
-    /* fallback to download */
+    local('Consolas'), /* second choice if available, esp. on windows */
+    local('Menlo'), /* second choice if available, esp. on osx */
+    local('DejaVu Sans Mono'), /* second choice if available, esp. on gnu linux distributions */
+    /* fallback to download inconsolata, which is free & open source */
     url(http://themes.googleusercontent.com/static/fonts/inconsolata/v6/BjAYBlHtW3CJxDcjzrnZCLrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
 }
 
