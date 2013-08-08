@@ -7,6 +7,6 @@
    "description": "Fixed-width messages (using Incosolata web-font from Raph Levien: http://www.google.com/fonts/specimen/Inconsolata) for Gmail™.",
    "name": "Fixed-width messages for Gmail™",
    "permissions": [ "tabs", "http://mail.google.com/*", "https://mail.google.com/*" ],
-   "version": "0.1",
+   "version": "0.4",
    "manifest_version": 2
 }

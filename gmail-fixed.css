@@ -3,9 +3,9 @@
   font-style: normal;
   font-weight: 400;
   src: 
-    local('Inconsolata'), /* first choice if available */
-    local('Consolas'), /* second choice if available, esp. on windows */
-    local('Menlo'), /* second choice if available, esp. on osx */
+    local('Inconsolata'),      /* first choice if available */
+    local('Consolas'),         /* second choice if available, esp. on windows */
+    local('Menlo'),            /* second choice if available, esp. on osx */
     local('DejaVu Sans Mono'), /* second choice if available, esp. on gnu linux distributions */
     /* fallback to download inconsolata, which is free & open source */
     url(http://themes.googleusercontent.com/static/fonts/inconsolata/v6/BjAYBlHtW3CJxDcjzrnZCLrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
@@ -14,9 +14,10 @@
 .gs .ii,
 textarea.Ak,
 table tbody tbody tr td font,
-div[aria-label="Message Body"], /* compose area */
+div[aria-label="Message Body"],         /* compose area */
 table[aria-role="presentation"] .iA.g6, /* excerpts in conversation view */
-tr.zA.yO span.y2 /* excerpts in inbox view */ {
+tr.zA.yO span.y2                        /* excerpts in inbox view */ 
+{
     font-family: 'MyMonospace' monospace !important;
     font-size: small !important;
 }
