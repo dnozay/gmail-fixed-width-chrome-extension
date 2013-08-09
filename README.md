@@ -6,10 +6,10 @@ This is based on [a blog post from Leonardo Soto](http://blog.leosoto.com/2009/0
 
 #[How to load this extension](http://developer.chrome.com/extensions/getstarted.html#unpacked):
 
-1.  clone this repository
-1.  visit [chrome://extensions](chrome://extensions)
-1.  make sure "developer mode" is checked
-1.  click "load unpacked extension" to select your git clone
+1.  clone this repository or [download it as a ZIP](https://github.com/dnozay/gmail-fixed-width-chrome-extension/archive/master.zip) ([older releases here](https://github.com/dnozay/gmail-fixed-width-chrome-extension/releases)),
+1.  visit [chrome://extensions](chrome://extensions),
+1.  make sure "developer mode" is checked,
+1.  click "load unpacked extension" to select your git clone.
 
 # Which fonts are used:
 There are some factors that I considered
