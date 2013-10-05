@@ -26,4 +26,11 @@ tr.zA.yO span.y2,                       /* excerpts in inbox view */
 {
     font-family: 'MyMonospace' monospace !important;
     font-size: small !important;
+    width: 576px; /* Magic number -- 72 characters = 576 pixels */
+    /* 1 character (X) = 8.00000000000007 pixel (X) */
+    /*background-image:url('http://i.imgur.com/eNxvJwf.png');
+    background-repeat:repeat-y; */ /* This will draw a line at the magic
+                                    * number -- not as useful as the 
+                                    * above 
+                                    */
 }
