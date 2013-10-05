@@ -17,8 +17,15 @@
 textarea.Ak,
 table tbody tbody tr td font,
 div[aria-label="Message Body"], /* compose area */
-table[aria-role="presentation"] .iA.g6, /* excerpts in conversation view */
-tr.zA.yO span.y2 /* excerpts in inbox view */ {
+table[aria-role="presentation"] .iA.g6 /* excerpts in conversation view */
+{
     font-family: 'Consolas', 'Inconsolata', monospace !important;
     font-size: small !important;
+    width: 576px; /* Magic number -- 72 characters = 576 pixels */
+    /* 1 character (X) = 8.00000000000007 pixel (X) */
+    /*background-image:url('http://i.imgur.com/eNxvJwf.png');
+    background-repeat:repeat-y; */ /* This will draw a line at the magic
+                                    * number -- not as useful as the 
+                                    * above 
+                                    */
 }
