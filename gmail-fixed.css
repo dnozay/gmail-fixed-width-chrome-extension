@@ -3,6 +3,11 @@
   font-style: normal;
   font-weight: 400;
   src: 
+    local('gmail-fixed-width'), /*
+      create a copy of your favorite font and rename it using FontForge
+      or any similar tool. See this link for more details:
+      http://superuser.com/questions/120593/change-ttf-font-name
+    */
     local('Inconsolata'),      /* first choice if available */
     local('Consolas'),         /* second choice if available, esp. on windows */
     local('Menlo'),            /* second choice if available, esp. on osx */
