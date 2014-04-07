@@ -23,3 +23,9 @@ There are some factors that I considered
 1. clone this repository
 1. use your favorite fixed-width font in the `gmail-fixed.css` file
 1. reload the extension :)
+
+or
+
+1. get a [tool to rename fonts](http://superuser.com/questions/120593/change-ttf-font-name)
+e.g. [FontForge](http://fontforge.org/).
+1. copy your favorite fixed width and rename it `gmail-fixed-width`.
