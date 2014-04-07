@@ -26,4 +26,8 @@ tr.zA.yO span.y2,                       /* excerpts in inbox view */
 {
     font-family: 'MyMonospace' monospace !important;
     font-size: small !important;
+    /* add a ruler */
+    background-image: url(data:image/bmp;base64,Qk1GAAAAAAAAADYAAAAoAAAAAQAAAPz///8BACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP///////////w==);
+    background-position: 640px 0px; /* 80 x 8px */
+    background-repeat: repeat-y;
 }
