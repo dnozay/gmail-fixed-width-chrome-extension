@@ -16,7 +16,8 @@ textarea.Ak,
 table tbody tbody tr td font,
 div[aria-label="Message Body"],         /* compose area */
 table[aria-role="presentation"] .iA.g6, /* excerpts in conversation view */
-tr.zA.yO span.y2                        /* excerpts in inbox view */ 
+tr.zA.yO span.y2,                       /* excerpts in inbox view */
+.jj                                     /* gmail offline */
 {
     font-family: 'MyMonospace' monospace !important;
     font-size: small !important;
